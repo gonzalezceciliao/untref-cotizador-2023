@@ -1,5 +1,5 @@
 import { useContext } from "react";
 import CotizadorContext from "../context/CotizadorContext";
 
-const CotizadorContext = () => useContext(CotizadorContext);
-export default CotizadorContext;
+const useCotizador = () => useContext(CotizadorContext);
+export default useCotizador;

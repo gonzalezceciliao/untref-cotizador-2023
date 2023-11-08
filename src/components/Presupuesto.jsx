@@ -1,8 +1,6 @@
-import React from 'react'
-
-const Presupuesto = () => {
+const Presupuesto = (propiedades) => {
   return (
-    <div>Presupuesto</div>
+    <li>{Object.keys(propiedades).map((propiedad,indice) => (<p key={indice}>{propiedad}:{propiedades[propiedad]}</p>))}</li>
   )
 }
 

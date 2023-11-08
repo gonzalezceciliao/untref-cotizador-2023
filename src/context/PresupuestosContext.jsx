@@ -1,5 +1,5 @@
 import { createContext } from "react";
 
-const PresupuestosContext = createContext(defaultValue);
+const PresupuestosContext = createContext([]);
 
 export default PresupuestosContext;
