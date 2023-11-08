@@ -1,6 +1,4 @@
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-import Header from "./components/Header";
-import Historial from "./Historial";
 import Cotizador from "./components/Cotizador";
 import Presupuestos from "./components/Presupuestos";
 import PresupuestosContext from "./context/PresupuestosContext";
